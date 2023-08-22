@@ -1,0 +1,50 @@
+/* 全局样式表 */
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* 最小的屏幕宽度 */
+    min-width: 1366px;
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.el-card {
+    /* 设置盒子阴影：x y 虚实 颜色 */
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15)!important;
+}
+
+.el-table {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.el-pagination {
+    margin-top: 15px;
+}
+
+/* 解决el-cascader没有滑动条的问题 */
+.el-scrollbar__wrap{
+    height: 200px ;
+}
+
+.el-steps {
+    /* 设置外边距：上下 左右 */
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+/* 副文本编辑器的样式 */
+.ql-editor {
+    /* 最小高度 */
+    min-height: 300px;
+}
